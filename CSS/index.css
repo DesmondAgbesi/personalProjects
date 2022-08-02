@@ -1,0 +1,77 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace, 'apple chancery', garamond;}
+
+.container {
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+
+.main-box{
+  max-width: 40%;
+  min-height: 60vh;
+  background-color: #f1efef;
+  /* overflow: hidden; */
+  padding: 40px;
+  padding-top: 120px;
+  position: relative;
+}
+
+.global-styling {
+  color: lightslategray;
+  
+}
+
+.image-selector {
+  position: absolute;
+  top: -16%;
+  left: 35%;
+  width: 12vw;
+  height: 30vh;
+  border: 2px solid grey;
+  border-radius: 100%;
+  overflow:hidden;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
+
+.text-selector>h1,p   {
+  text-align: center;
+
+}
+
+.text-selector>h1 {
+  font-size: 25px;
+  text-decoration:underline 2px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+p{
+  color: grey;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 30px;;
+}
+.button {
+  padding-top:5%;
+  padding-left: 40%;
+  /* height: 6.5vh;
+  width: 10% */
+}
+
+
+button{
+  padding: 1.5vh 10% ;
+  border: 2px solid grey;
+  border-radius:50px;
+}
