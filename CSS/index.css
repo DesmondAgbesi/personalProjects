@@ -2,7 +2,8 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace, 'apple chancery', garamond;}
+  font-family: 'Courier New', Courier, monospace, 'apple chancery', garamond;
+}
 
 .container {
   height: 100vh;
@@ -18,11 +19,12 @@
   min-height: 60vh;
   background-color: #f1efef;
   /* overflow: hidden; */
-  padding: 40px;
-  padding-top: 120px;
+  padding: 30px ;
   position: relative;
 }
-
+.first{
+  padding-top: 10vh;
+}
 .global-styling {
   color: lightslategray;
   
@@ -30,13 +32,20 @@
 
 .image-selector {
   position: absolute;
-  top: -16%;
-  left: 35%;
-  width: 12vw;
-  height: 30vh;
+  top: -20%;
+  left: 30%;
+  width: 40%;
+  height: 30%;
+  padding-top: 40px;
   border: 2px solid grey;
   border-radius: 100%;
   overflow:hidden;
+}
+
+a{
+  text-decoration:none;
+  color: lightslategray;
+  font-size: 16px;
 }
 
 img{
@@ -44,7 +53,7 @@ img{
   height: 100%;
 }
 
-.text-selector>h1,p   {
+.text-selector>h1,p  {
   text-align: center;
 
 }
@@ -63,7 +72,7 @@ p{
   line-height: 30px;;
 }
 .button {
-  padding-top:5%;
+  padding-top:1%;
   padding-left: 40%;
   /* height: 6.5vh;
   width: 10% */
@@ -75,3 +84,63 @@ button{
   border: 2px solid grey;
   border-radius:50px;
 }
+.position-radial {
+  display: flex;
+  padding-top: 70px;
+  justify-content:center;
+  align-content: center;
+  gap: 10px;
+}
+
+.shaping {
+  width: 10px;
+  height: 10px;
+  background-color: #d6d3d3;
+  border: none;
+  border-radius: 100%;
+}
+
+.shaping:hover {
+  color:#b8b5b5;
+  height:15px;
+  width: 15px;
+  margin-top: -1%;
+  /* padding-top:20px; */
+
+}
+
+.button-1{
+  width: 15px;
+  height:15px;
+  padding-top: -30px;
+  background-color: rgb(12, 7, 1);
+  margin-top: -1%;
+}
+
+
+.page-1 {
+  padding: none;
+}
+
+/* FOR THE LAST PAGE */
+.last {
+  min-width: 40%;
+  min-height: 60vh;
+  background-color: #f1efef;
+  /* overflow: hidden; */
+  padding: 30px ;
+  position: relative;
+
+}
+
+.end {
+  font-size:10vh;
+  color:grey;
+  text-align: center;
+  padding-top: 18vh;
+}
+
+.pics {
+    padding-top: 20px;
+}
+
